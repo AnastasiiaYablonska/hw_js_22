@@ -179,10 +179,9 @@ let array= [
             address: '2021 Cedar St, Somewhere, FL 33456',
             email: 'tunson@gmail.com'
     },
-    let.user10 =['Bob','Petrovich', 'Martin','BobMar5', '123456', 27, 5'manager','2223 Walnut St, Anywhere, USA 12345','hnstttt@gmail.com']
-    {
+    let.user10 ={
             name: 'Bob',
-            surname: 'Petrovich',
+            surname: 'Grigorovich',
             lastname: 'Martin',
             username: 'BobMar5',
             password: '123456',
