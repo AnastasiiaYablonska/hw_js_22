@@ -20,8 +20,8 @@ let g=2.7
 console.log(g)
 let k=16
 console.log(k)
-let n=true
-console.log(n)
+let n= 4<8
+console.log(typeof n)
 let l=5>6
-console.log(l)
+console.log(typeof l)
 
