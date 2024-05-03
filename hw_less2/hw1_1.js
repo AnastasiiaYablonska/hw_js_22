@@ -43,166 +43,65 @@ console.log(book3);
 // Поле "автори" - являється  масивом.
 // Кожен автор має поля name та age.
 
+//----------------2.0----------------
+// Book 4
 let book4 = {
-    title: "To Kill a Mockingbird",
-    pageCount: 296,
-    genre: "Roman",
-    authors: ["Harper Lee"],
-}
+    title: "The Lord of the Rings: The Fellowship of the Ring",
+    pageCount: 493,
+    genre: "Fantasy",
+    authors: [
+        { name: "J.R.R. Tolkien", age: 72 },
+        { name: "Stanley Unwin", age: 46 }
+    ]
+};
 
+// Book 5
 let book5 = {
     title: "Pride and Prejudice",
-    pageCount: 234,
-    genre: "Romantic novel",
-    authors: ["Jane Austen"],
-}
+    pageCount: 352,
+    genre: "Romance",
+    authors: [
+        { name: "Jane Austen", age: 41 }
+    ]
+};
 
+// Book 6
 let book6 = {
-    title: "The Book Thief",
-    pageCount: 550,
-    genre: "Historical novel",
-    authors: ["Markus Zusak"],
-}
-console.log(book4);
-console.log(book5);
-console.log(book6);
+    title: "Sherlock Holmes",
+    pageCount: 224,
+    genre: "Detective",
+    authors: [
+        { name: "Arthur Conan Doyle", age: 56 }
+    ]
+};
 
 // - Створити масив з 10 об'єктами які описують сутніть "користувач".
 // Поля: name, username,password.
 // Вивести в консоль пароль кожного користувача
-let array= [
-    let.user1 = {
-        name: 'Jennifer',
-        surname: 'Petrovich',
-        lastname: 'Doe',
-        username: 'J1',
-        password: '123456Zz',
-        age: 20,
-        experience: 2,
-        position: 'manager',
-        address: '345 Park Avenue',
-        email: 'johnson@gmail.com'
-    },
-    let.user2 = {
-            name: 'James',
-            surname: 'Pavlovich',
-            lastname: 'Smith',
-            username: 'J2',
-            password: '123456ZXZx',
-            age: 25,
-            experience: 5,
-            position: 'manager',
-            address: '456 Elm St, Anothertown, NY 54321',
-            email: '123@gmail.com'
-    },
-    let.user3 = {
-            name: 'Jessica',
-            surname: 'Urievich',
-            lastname: 'Johnson',
-            username: 'J3',
-            password: '123456ASD',
-            age: 29,
-            experience: 3,
-            position: 'manager',
-            address: '789 Oak St, Sometown, TX 76543',
-            email: '4yun@gmail.com'
-    },
-    let.user4 = {
-            name: 'Bob',
-            surname: 'Petrovich',
-            lastname: 'Williams',
-            username: 'Bob1',
-            password: '123456ASDFCD',
-            age: 30,
-            experience: 1,
-            position: 'manager',
-            address: '1011 Maple St, Bigtown, IL 60543',
-            email: 'jon@gmail.com'
-    },
-    let.user5 = {
-            name: 'Sarah',
-            surname: "Olegovich",
-            lastname: 'Brown',
-            username: 'S1',
-            password: '123456Sdx',
-            age: 24,
-            experience: 2.5,
-            position: 'manager',
-            address: '1213 Pine St, Smalltown, PA 18901',
-            email: 'yyy5@gmail.com'
-    },
-    let.user6 = {
-            name: 'David',
-            surname: 'Petrovich',
-            lastname: 'Jones',
-            username: 'D111',
-            password: '123456SDXDC',
-            age: 35,
-            experience: 4.5,
-            position: 'manager',
-            address: '1415 Poplar St, Tinytown, OH 43210',
-            email: 'son@gmail.com'
-    },
-    let.user7 = {
-            name: 'Elizabeth',
-            surname: 'Petrovich',
-            lastname: 'Miller',
-            username: 'Elza',
-            password: '123456',
-            age: 28,
-            experience: 6,
-            position: 'manager',
-            address: '1617 Spruce St, Littletown, MO 65732',
-            email: 'hnson@gmail.com'
-    },
-    let.user8 = {
-            name: 'Robert',
-            surname: 'Petrovich',
-            lastname: 'Davis',
-            username: 'Rob',
-            password: '123456D',
-            age: 31,
-            experience: 2,
-            position: 'manager',
-            address: '1819 Willow St, Nowhere, AZ 85243',
-            email: 'onyy@gmail.com'
-    },
-    let.user9 = {
-            name: 'Mary',
-            surname: 'Petrovich',
-            lastname: 'Taylor',
-            username: 'MaryMary',
-            password: '123456',
-            age: 19,
-            experience: 7,
-            position: 'manager',
-            address: '2021 Cedar St, Somewhere, FL 33456',
-            email: 'tunson@gmail.com'
-    },
-    let.user10 ={
-            name: 'Bob',
-            surname: 'Grigorovich',
-            lastname: 'Martin',
-            username: 'BobMar5',
-            password: '123456',
-            age: 27,
-            experience: 5,
-            position: 'manager',
-            address: '2223 Walnut St, Anywhere, USA 12345',
-            email: 'hnstttt@gmail.com'
-    },
-]
+//-----------------------2.0-----------------------
+let users = [
+    { name: "Peter", username: "peter123", password: "qwerty123" },
+    { name: "Elena", username: "olena2000", password: "ilovecats" },
+    { name: "Ivan", username: "ivan_88", password: "football12" },
+    { name: "Maria", username: "maria_99", password: "sunshine" },
+    { name: "Sergey", username: "serhii77", password: "dragonborn" },
+    { name: "Anna", username: "anna_2024", password: "password123" },
+    { name: "Taras", username: "taras1980", password: "freedom" },
+    { name: "Yulia", username: "yulia_2010", password: "ilovemusic" },
+    { name: "Andriy", username: "andriy_65", password: "traveler" },
+    { name: "Oksana", username: "oksana_2005", password: "happiness" }
+];
 
-console.log(array.length[4]);
-console.log(array.length[4]);
-console.log(array.length[4]);
-console.log(array.length[4]);
-console.log(array.length[4]);
-console.log(array.length[4]);
-console.log(array.length[4]);
-console.log(array.length[4]);
-console.log(array.length[4]);
-console.log(array.length[4]);
+        console.log( password: ${user.password});
+        console.log( password: ${user.password});
+        console.log( password: ${user.password});
+        console.log( password: ${user.password});
+        console.log( password: ${user.password});
+        console.log( password: ${user.password});
+        console.log( password: ${user.password});
+        console.log( password: ${user.password});
+        console.log( password: ${user.password});
+        console.log( password: ${user.password});
 
 
 
